@@ -12,8 +12,8 @@ public class Tarefa {
     this.descricao = descricao;
   }
 
-  public void setHorasEstudo(int horas) {
-    this.horas = horas;
+  public int setHorasEstudo(int horas) {
+    return this.horas = horas;
   }
 
   public void executar() {
