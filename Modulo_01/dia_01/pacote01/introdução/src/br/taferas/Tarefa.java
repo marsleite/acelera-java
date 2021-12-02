@@ -29,6 +29,13 @@ public class Tarefa {
   }
 
   public int tamanhoDescricao(){
-    return descricao.length();
+    return this.horas;
+  }
+
+  public void status() {
+    System.out.println(this.getDescricao());
+    this.executar();
+    System.out.println("Depois de " + this.tamanhoDescricao() + " horas");
+    this.finalizar();
   }
 }
